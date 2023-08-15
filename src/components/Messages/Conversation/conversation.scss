@@ -1,0 +1,35 @@
+@import '../../../SASS/reset';
+@import '../../../SASS/variables';
+
+
+.messageDetails {
+    background-color: rgb(208, 221, 227);
+    height: 75vh;
+    width: 100%;
+    margin-left: 1rem;
+    color: $dark;
+    padding: 3rem ;
+}
+
+.message-body {
+    background-color: #fff;
+    height: 80%;
+    border-radius: $radius;
+    color: $dark;
+    margin-top: 3rem;
+    padding: 2rem;
+    
+}
+
+.instruction-message{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    padding: 1.5rem 10rem;
+    svg {
+        font-size: 3rem;
+    }
+}

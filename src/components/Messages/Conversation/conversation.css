@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 2.2;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+section {
+  color: #535266;
+}
+
+.messageDetails {
+  background-color: rgb(208, 221, 227);
+  height: 75vh;
+  width: 100%;
+  margin-left: 1rem;
+  color: #535266;
+  padding: 3rem;
+}
+
+.message-body {
+  background-color: #fff;
+  height: 80%;
+  border-radius: 5px;
+  color: #535266;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+.instruction-message {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+  padding: 1.5rem 10rem;
+}
+.instruction-message svg {
+  font-size: 3rem;
+}/*# sourceMappingURL=conversation.css.map */

@@ -1,0 +1,78 @@
+@import '../../../SASS/reset';
+@import '../../../SASS/variables';
+
+
+
+.heading.headingWorker{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+   margin-bottom: 5rem;
+   height: 100%;
+   border-radius: $radius;
+   background-color: $blue;
+}
+
+
+.tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $green;
+    font-size: 1rem;
+    padding: 0.3rem 1.4rem;
+    color: $dark;
+    text-transform: uppercase;
+    border-radius: 2rem;
+}
+
+
+.worker-infos{
+    position: relative;
+    flex: 1;
+   color: $secondary;
+    text-align: left;
+    h1{
+        text-transform:lowercase ;
+        span{
+            text-transform: uppercase;
+        }
+    }
+    h2{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.6rem;
+        color: $dark;
+        span{
+            font-weight: bolder;
+        }
+    }
+}
+.img-worker-container{
+    height: 10rem;
+    margin-right: 3rem ;
+    width: 10rem;
+    img {
+        width: 100%;
+        cursor: pointer;
+    }
+}
+
+.contactInfoUser {
+    display: flex;
+    // justify-content: space-around
+    justify-content: flex-start;
+    font-size: 1.2rem;
+    color: $dark;
+    div {
+        display: flex;
+        
+ 
+        align-items: center;
+       margin-left: 2rem;
+        justify-content: space-around;
+        svg {
+            margin-right: 0.5rem;
+        }
+    }
+}

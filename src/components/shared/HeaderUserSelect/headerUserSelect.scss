@@ -1,0 +1,42 @@
+@import '../../../SASS/reset';
+@import '../../../SASS/variables';
+
+.customDropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: $secondary;
+    min-width: 160px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdownContent a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  .dropdownContent a:hover {
+    background-color: $primary;
+    color: $dark;
+  }
+  
+  .show {
+    display: block;
+  }
+
+
+  .btn {
+    span{
+        text-transform: uppercase;
+        margin-left: 0.3rem;
+    }
+  }
