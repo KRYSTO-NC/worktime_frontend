@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 2.2;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+section {
+  color: #535266;
+}
+
+.heading.headingWorker {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #CBE6FF;
+}
+
+.tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #CEF9CA;
+  font-size: 1rem;
+  padding: 0.3rem 1.4rem;
+  color: #535266;
+  text-transform: uppercase;
+  border-radius: 2rem;
+}
+
+.worker-infos {
+  position: relative;
+  flex: 1;
+  color: #00558d;
+  text-align: left;
+}
+.worker-infos h1 {
+  text-transform: lowercase;
+}
+.worker-infos h1 span {
+  text-transform: uppercase;
+}
+.worker-infos h2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  color: #535266;
+}
+.worker-infos h2 span {
+  font-weight: bolder;
+}
+
+.img-worker-container {
+  height: 10rem;
+  margin-right: 3rem;
+  width: 10rem;
+}
+.img-worker-container img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.contactInfoUser {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.2rem;
+  color: #535266;
+}
+.contactInfoUser div {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  justify-content: space-around;
+}
+.contactInfoUser div svg {
+  margin-right: 0.5rem;
+}/*# sourceMappingURL=workerHeader.css.map */

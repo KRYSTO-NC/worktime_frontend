@@ -1,0 +1,60 @@
+@import '../../../SASS/reset';
+@import '../../../SASS/variables';
+
+
+.message-page-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.messageList{
+    width: 40%;
+    border: 3px solid $dark;
+    height: 75vh;
+    padding: 1rem;
+    border-radius: $radius;
+    overflow-y: auto;
+}
+
+.filterMessages{
+    display: flex;
+   
+    justify-content: space-between;
+    button{
+       width: 20%;
+    }
+  
+}
+
+
+.messageCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $blue;
+    padding: 1rem;
+    border-radius: $radius;
+    margin: 1rem 0;
+    cursor: pointer;
+
+    &:hover{
+
+        box-shadow: $shadow;
+    }
+}
+
+.notRead{
+    background-color: $warning;
+ 
+}
+
+.read{
+    background-color: $green;
+    color: $dark;
+}
+.archive{
+    background-color: $purple;
+    color: $dark;
+}

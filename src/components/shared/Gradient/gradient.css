@@ -1,0 +1,19 @@
+.home-mainG {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../../assets//background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+.overlayTxtb {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}/*# sourceMappingURL=gradient.css.map */

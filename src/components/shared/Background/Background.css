@@ -1,0 +1,28 @@
+.home-main {
+  position: relative;
+  height: 100vh;
+  background-image: url("../../../assets/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlayBG {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50%;
+  background-image: url("../../../assets/SVG/BGW.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.overlayTxtB {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 50vw;
+}/*# sourceMappingURL=Background.css.map */
