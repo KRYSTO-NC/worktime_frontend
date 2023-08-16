@@ -1,46 +1,63 @@
-# Getting Started with Create React App and Redux
+# FRONTEND WORKTIME MULTI ENTREPRISE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<img src="https://reactjs.org/logo-og.png" alt="Logo de React" width="50"> 
+<img src="https://redux.js.org/img/redux.svg" alt="Logo de Redux" width="50">
+<img src="https://raw.githubusercontent.com/reduxjs/redux-toolkit/master/logo.png" alt="Logo de Redux Toolkit" width="50">
 
-## Available Scripts
+Welcome to the GitHub repository of the frontend for **WORKTIME MULTI ENTERPRISE**! This project was initiated with Create React App, using the Redux and Redux Toolkit template.
+
+For details on how to launch the API and its associated features, please refer to the [API GitHub Repository](https://github.com/stoyann-open-classrooms/workshift_api). All necessary instructions are provided in the README of the API repository.
+
+## 📌 French Version
+
+[Access the French version](#version-française)
+
+## 🚀 Quick Start with Create React App and Redux
+
+This project was bootstrapped with Create React App, using the Redux and Redux Toolkit template.
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start`: Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
+- `npm test`: Launches the test runner in interactive watch mode.
+- `npm run build`: Builds the app for production to the `build` folder. It optimizes the build for best performance.
+- `npm run eject`: Note: this is a one-way operation. Once you eject, you can't go back!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📚 Learn More
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- You can learn more in the [Create React App documentation](https://create-react-app.dev/).
+- To learn about React, check out the [React documentation](https://reactjs.org/).
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Version Française
 
-### `npm run build`
+# FRONTEND WORKTIME MULTI ENTREPRISE
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://reactjs.org/logo-og.png" alt="Logo de React" width="50"> 
+<img src="https://redux.js.org/img/redux.svg" alt="Logo de Redux" width="50">
+<img src="https://raw.githubusercontent.com/reduxjs/redux-toolkit/master/logo.png" alt="Logo de Redux Toolkit" width="50">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Bienvenue sur le dépôt GitHub du frontend de **WORKTIME MULTI ENTREPRISE**! Ce projet a été initié avec Create React App, en utilisant le modèle Redux et Redux Toolkit.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pour les détails sur comment lancer l'API et ses fonctionnalités associées, veuillez consulter le [dépôt GitHub de l'API](https://github.com/stoyann-open-classrooms/workshift_api). Toutes les instructions nécessaires sont fournies dans le README du dépôt de l'API.
 
-### `npm run eject`
+## 🚀 Démarrage rapide avec Create React App et Redux
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ce projet a été initié avec Create React App, en utilisant le modèle Redux et Redux Toolkit.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Commandes disponibles
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Dans le répertoire du projet, vous pouvez exécuter :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `npm start`: Lance l'application en mode développement. Ouvrez [http://localhost:3000](http://localhost:3000) pour le voir dans votre navigateur. La page se rechargera si vous faites des modifications.
+- `npm test`: Lance le test runner en mode interactif.
+- `npm run build`: Construit l'application pour la production dans le dossier `build`. Il optimise le build pour obtenir les meilleures performances.
+- `npm run eject`: Note : c'est une opération irréversible. Une fois que vous avez éjecté, vous ne pouvez pas revenir en arrière!
 
-## Learn More
+### 📚 Pour en savoir plus
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Vous pouvez en savoir plus dans la [documentation de Create React App](https://create-react-app.dev/).
+- Pour en savoir plus sur React, consultez la [documentation React](https://reactjs.org/).
