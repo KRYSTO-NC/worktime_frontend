@@ -50,7 +50,7 @@ function Header() {
   if (profil.data.role === 'admin') {
     return (
       <header className="header">
-        <ConnectNotif/>
+
         <ul>
           <li><Link to={"/admin/home"}><FaHome /> Accueil</Link></li>
           <li><Link to={"/admin/employee"}><FaUsers /> Employées</Link></li>
@@ -87,7 +87,7 @@ function Header() {
   } else {  // Assumant que c'est le rôle 'user'
     return (
       <header className="header">
-          <ConnectNotif/>
+
         <ul>
           <li><Link to={"/user/home"}><FaHome /> Accueil</Link></li>
           <li><Link to={"/user/messages"} ><FaComments /> Messages</Link></li>

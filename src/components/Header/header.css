@@ -50,7 +50,11 @@ section {
   align-items: center;
   padding: 1rem;
   position: relative;
+<<<<<<< HEAD
   z-index: 10;
+=======
+  z-index: 33;
+>>>>>>> d46c077093fc17639171fc82bd827112259e8871
 }
 
 .header ul {
